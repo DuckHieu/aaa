@@ -5377,15 +5377,14 @@ LC:AddToggle({
 })
 
 local Section = LC:AddSection({
-    Name = "AimBot"
+    Name = "Auto Bounty"
 })
 
 LC:AddToggle({
-    Name = "AimBot",
+    Name = "Auto Bounty",
     Default = false,
     Callback = function(Value)
-        _G.Aimbot_Gun = Value
-        _G.Aimbot_Skill = Value
+        _G.Auto Bounty = Value
 
     end    
 })
@@ -5393,12 +5392,11 @@ LC:AddToggle({
 
 
 LC:AddToggle({
-    Name = "Aimbot Skill Nearest",
+    Name = "test",
     Default = false,
-    Flag = "Aimbot Skill Nearest",
+    Flag = "test",
     Save = true,
     Callback = function(Value)
-        AimSkillNearest = Value
     end    
 })
 
